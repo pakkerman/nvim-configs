@@ -15,3 +15,8 @@ vim.keymap.set("n", "˚", "o<esc>kkddpk")
 -- to <Del> key
 vim.keymap.set("i", "<C-D>", "<Del>")
 vim.keymap.set("i", "jk", "<esc>")
+
+-- Use option 1,2,3 to switch tabs
+vim.keymap.set("n", "¡", "1gt")
+vim.keymap.set("n", "™", "2gt")
+vim.keymap.set("n", "£", "3gt")
