@@ -8,3 +8,4 @@
 
 - [ ] Find a way to trigger completeion suggenstions manually
 - [ ] Find out why the suggenstion tooltip is transparent, can read shit on it
+- [ ] Change notification pop up to not top right corner

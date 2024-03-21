@@ -11,3 +11,4 @@ vim.cmd("set relativenumber")
 vim.cmd("set number")
 
 vim.cmd("set splitbelow")
+vim.cmd("set inccommand=split")
