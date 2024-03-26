@@ -17,6 +17,6 @@ vim.keymap.set("i", "<C-D>", "<Del>")
 vim.keymap.set("i", "jk", "<esc>")
 
 -- Use option 1,2,3 to switch tabs
-vim.keymap.set("n", "¡", "1gt")
-vim.keymap.set("n", "™", "2gt")
-vim.keymap.set("n", "£", "3gt")
+vim.keymap.set("n", "<leader>1", "1gt")
+vim.keymap.set("n", "<leader>2", "2gt")
+vim.keymap.set("n", "<leader>3", "3gt")
