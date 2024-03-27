@@ -16,3 +16,4 @@
 
 - [ ] Add: Make a new keybind for captialize first letter when a word is selected
 - [ ] Add: Make a new keybind for captialize first letter of first word of a line
+- [ ] Change: } and { doesn't change the jump list
