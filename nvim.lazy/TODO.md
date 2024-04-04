@@ -9,7 +9,7 @@
   - temporary solution: tmux binding to open in original path, not the symlinked path in
 
 - [ ] Find a way to trigger completeion suggenstions manually
-- [ ] Find out why the suggenstion tooltip is transparent, can read shit on it
+- [ ] Find out why the suggenstion tooltip is transparent, can't read shit on it
 - [ ] Change notification pop up to not top right corner
 
 - [ ] change: Disable auto pairing by default
