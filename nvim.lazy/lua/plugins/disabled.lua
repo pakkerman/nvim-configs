@@ -1,1 +1,3 @@
-return {}
+return {
+  { "mini.pairs", enabled = false },
+}
