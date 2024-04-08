@@ -4,7 +4,7 @@ return {
     -- disable the keymap to grep files
     { "<leader><space>", false },
     -- change a keymap
-    { "<leader>p", "<cmd>Telescope find_files<cr>", desc = "Find Files" },
+    { "<leader>p", "<cmd>Telescope git_files<cr>", desc = "Find Files" },
     { "<leader>r", "<cmd>Telescope resume<cr>", desc = "Resume" },
     -- add a keymap to browse plugin files
     -- {
