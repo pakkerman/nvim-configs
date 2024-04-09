@@ -1,6 +1,6 @@
 return {
 
-  { "ellisonleao/gruvbox.nvim", "catppuccin/nvim" },
+  { "ellisonleao/gruvbox.nvim", "catppuccin/nvim", "rebelot/kanagawa.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
