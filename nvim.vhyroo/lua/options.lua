@@ -24,3 +24,4 @@ vim.opt.ignorecase = true
 -- Support full range of colors
 vim.opt.termguicolors = true
 vim.g.mapleader = " "
+
