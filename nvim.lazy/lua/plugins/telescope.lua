@@ -15,4 +15,12 @@ return {
     --   desc = "Find Plugin File",
     -- },
   },
+  opts = {
+    defaults = {
+      layout_strategy = "horizontal",
+      layout_config = { prompt_position = "top", height = 0.7, preview_cutoff = 80, width = 0.95 },
+      sorting_strategy = "ascending",
+      winblend = 0,
+    },
+  },
 }

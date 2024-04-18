@@ -18,4 +18,4 @@
 - [ ] Add: Make a new keybind for captialize first letter of first word of a line
 - [ ] Change: } and { doesn't change the jump list
 
-- [ ] Change: Telescope input box to the top of the window
+- [x] Change: Telescope input box to the top of the window
