@@ -17,3 +17,5 @@
 - [ ] Investigate: How to restore the functionality of dashboard c key to go into the telescope configs, right now the ~/.config/nvim/ is just bunch of symlinks, and telescope seem to be having trouble grabbing them?
 
   - temporary solution: tmux binding to open in original path, not the symlinked path in
+
+- [ ] Change: Disable or change word highlighting under the cursor, can't tell if I selected it or not
