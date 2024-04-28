@@ -19,3 +19,5 @@
   - temporary solution: tmux binding to open in original path, not the symlinked path in
 
 - [ ] Change: Disable or change word highlighting under the cursor, can't tell if I selected it or not
+
+- [ ] Make flash color less obnoxious,
