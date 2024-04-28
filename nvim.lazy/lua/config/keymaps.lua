@@ -20,7 +20,7 @@ vim.keymap.set("i", "Jk", "<esc>")
 vim.keymap.set("i", "JK", "<esc>")
 
 -- Use option 1,2,3 to switch tabs
-vim.keymap.set("n", "<leader>`", "<C-w>s<C-w>T")
-vim.keymap.set("n", "<leader>1", "1gt", { desc = "Go to Tab 1" })
-vim.keymap.set("n", "<leader>2", "2gt", { desc = "Go to Tab 2" })
-vim.keymap.set("n", "<leader>3", "3gt", { desc = "Go to Tab 3" })
+vim.keymap.set({ "n", "v" }, "<leader>`", "<C-w>s<C-w>T")
+vim.keymap.set({ "n", "v" }, "<leader>1", "1gt", { desc = "Go to Tab 1" })
+vim.keymap.set({ "n", "v" }, "<leader>2", "2gt", { desc = "Go to Tab 2" })
+vim.keymap.set({ "n", "v" }, "<leader>3", "3gt", { desc = "Go to Tab 3" })
