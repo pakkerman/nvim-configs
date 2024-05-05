@@ -1,14 +1,4 @@
-return {
-  {
-    "nvim-cmp",
-    keys = {
-      {
-        "<C-*>",
-        "<cmd>!echo 123",
-      },
-    },
-  },
-}
+return {}
 -- return {
 --    "hrsh7th/nvim-cmp",
 --
