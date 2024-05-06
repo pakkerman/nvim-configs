@@ -20,4 +20,6 @@
 
 - [ ] Change: Disable or change word highlighting under the cursor, can't tell if I selected it or not
 
-- [ ] Make flash color less obnoxious,
+- [ ] Make flash color less obnoxious, there is a highlight group under "Flash..."
+
+- [ ] change Lazygit's default editor to nvim instead of vscode (eww)
