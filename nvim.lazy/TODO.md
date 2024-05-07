@@ -23,3 +23,5 @@
 - [ ] Make flash color less obnoxious, there is a highlight group under "Flash..."
 
 - [ ] change Lazygit's default editor to nvim instead of vscode (eww)
+
+- [x] change line number to some color that is not so hard to see
