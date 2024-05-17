@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+
 # Switching between configs quickly
 
 cd "$(dirname "$0")" || exit
@@ -8,7 +8,18 @@ echo -e "\n --- Nvim config switcher --- \n"
 
 current_config=$(cat .current_config) #FIX: this will not work if file does not exist, if this script is excute for the first time.
 options=(*/)
-option=$(echo "${options[@]}" | tr " " "\n" | sed "s/\///g" | fzf --margin 10% --border=bold --border-label="Nvim config switcher" --border-label-pos=bottom --header="current: $current_config" --header-first)
+option=$(
+	echo "${options[@]}" |
+		tr " " "\n" |
+		sed "s/\///g" |
+		fzf \
+			--margin 25% \
+			--border=bold \
+			--border-label="Nvim config switcher" \
+			--border-label-pos=top \
+			--header-first \
+			--header="current: $current_config"
+)
 
 [[ -z "$option" ]] && echo -e "\nNo option selected\nend script" && exit 1
 [[ "$option" == "$current_config" ]] && echo -e "\nYou are currently using ""$option""\n" && exit 1
