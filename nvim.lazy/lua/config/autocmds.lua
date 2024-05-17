@@ -5,3 +5,5 @@
 vim.cmd("highlight LineNr guifg=#FDBA74")
 vim.cmd("highlight LineNrAbove guifg=#6B7280")
 vim.cmd("highlight LineNrBelow guifg=#6B7280")
+
+vim.cmd("highlight FlashLabel guifg=#FB923C guibg=none")

@@ -9,19 +9,17 @@
 - [x] Change: Telescope input box to the top of the window
 - [x] Change: Remap increment and decrement selection with treesitter
 
-- [ ] Add: Make a new keybind for captialize first letter when a word is selected
-- [ ] Add: Make a new keybind for captialize first letter of first word of a line
-- [ ] Change: } and { doesn't change the jump list
+- [ ] Change: } and { doesn't change the jump list? maybe
 - [ ] Add: that plugin that can select function and stuff using motion. cfi for change inside of a function and stuff.
 - [ ] Find out why the suggenstion tooltip is transparent, can't read shit on it
 - [ ] Investigate: How to restore the functionality of dashboard c key to go into the telescope configs, right now the ~/.config/nvim/ is just bunch of symlinks, and telescope seem to be having trouble grabbing them?
 
   - temporary solution: tmux binding to open in original path, not the symlinked path in
 
-- [ ] Change: Disable or change word highlighting under the cursor, can't tell if I selected it or not
+- [x] Change: Disable or change word highlighting under the cursor, can't tell if I selected it or not
+- [x] Make flash color less obnoxious, there is a highlight group under "Flash..."
+- [x] change Lazygit's default editor to nvim instead of vscode (eww)
 
-- [ ] Make flash color less obnoxious, there is a highlight group under "Flash..."
-
-- [ ] change Lazygit's default editor to nvim instead of vscode (eww)
+  - solution: set the global config to use nvim
 
 - [x] change line number to some color that is not so hard to see
