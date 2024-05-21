@@ -11,7 +11,11 @@
 
 - [ ] Change: } and { doesn't change the jump list? maybe
 - [ ] Add: that plugin that can select function and stuff using motion. cfi for change inside of a function and stuff.
-- [ ] Find out why the suggenstion tooltip is transparent, can't read shit on it
+
+- [x] Find out why the suggenstion tooltip is transparent, can't read shit on it
+
+  - solution: changing highlight group Pmenu, make blend=0 solve the problem
+
 - [ ] Investigate: How to restore the functionality of dashboard c key to go into the telescope configs, right now the ~/.config/nvim/ is just bunch of symlinks, and telescope seem to be having trouble grabbing them?
 
   - temporary solution: tmux binding to open in original path, not the symlinked path in

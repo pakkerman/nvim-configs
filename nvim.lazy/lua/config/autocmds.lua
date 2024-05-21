@@ -6,4 +6,8 @@ vim.cmd("highlight LineNr guifg=#FDBA74")
 vim.cmd("highlight LineNrAbove guifg=#6B7280")
 vim.cmd("highlight LineNrBelow guifg=#6B7280")
 
+-- Make FlashLabel (matched item) not magenta color (GROSS)
 vim.cmd("highlight FlashLabel guifg=#FB923C guibg=none")
+
+-- Make completion menu not transparent
+vim.cmd("highlight Pmenu guibg=#1E293B blend=0")
