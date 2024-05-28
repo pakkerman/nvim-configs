@@ -3,6 +3,8 @@
 -- Add any additional options here
 -- pro tip: :options for more options
 
+vim.cmd("set formatoptions=jcrqlnt")
+
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
 vim.cmd("set nolist")
