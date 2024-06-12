@@ -3,7 +3,7 @@
 -- Add any additional options here
 -- pro tip: :options for more options
 
-vim.cmd("set formatoptions=jcrqlnt")
+-- vim.cmd("autocmd VimEnter :set formatoptions=jcrqlnt | :set formatoptions ")
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=4")
