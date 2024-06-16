@@ -14,3 +14,8 @@ vim.cmd("highlight FlashLabel guifg=#FB923C guibg=none")
 
 -- Make completion menu not transparent
 vim.cmd("highlight Pmenu guibg=#1E293B blend=0")
+
+-- Make highlighting reference to what is under cursor transparent
+vim.cmd("hi LspReferenceText guibg=None")
+vim.cmd("hi LspReferenceWrite guibg=None")
+vim.cmd("hi LspReferenceRead guibg=None")
