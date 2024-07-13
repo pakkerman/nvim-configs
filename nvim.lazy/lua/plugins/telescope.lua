@@ -14,5 +14,11 @@ return {
       sorting_strategy = "ascending",
       winblend = 0,
     },
+    pickers = {
+      git_files = {
+        -- Use git sparse-checkout list to get the sparse-checked-out files
+        git_command = { "git", "ls-files", "--sparse" },
+      },
+    },
   },
 }
