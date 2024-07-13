@@ -16,6 +16,6 @@ vim.cmd("highlight FlashLabel guifg=#FB923C guibg=none")
 vim.cmd("highlight Pmenu guibg=#1E293B blend=0")
 
 -- Make highlighting reference to what is under cursor transparent
-vim.cmd("hi LspReferenceText guibg=None")
-vim.cmd("hi LspReferenceWrite guibg=None")
-vim.cmd("hi LspReferenceRead guibg=None")
+vim.cmd("highlight LspReferenceText guibg=None")
+vim.cmd("highlight LspReferenceWrite guibg=None")
+vim.cmd("highlight LspReferenceRead guibg=None")
