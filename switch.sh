@@ -6,19 +6,20 @@ cd "$(dirname "$0")" || exit
 
 echo -e "\n --- Nvim config switcher --- \n"
 
-current_config=$(cat .current_config) #FIX: this will not work if file does not exist, if this script is excute for the first time.
+[[ ! -f .current_config ]] && echo "nvim.lazy" >.current_config
+current_config=$(cat .current_config)
 options=(*/)
 option=$(
-	echo "${options[@]}" |
-		tr " " "\n" |
-		sed "s/\///g" |
-		fzf \
-			--margin 25% \
-			--border=bold \
-			--border-label="Nvim config switcher" \
-			--border-label-pos=top \
-			--header-first \
-			--header="current: $current_config"
+  echo "${options[@]}" |
+    tr " " "\n" |
+    sed "s/\///g" |
+    fzf \
+      --margin 25% \
+      --border=bold \
+      --border-label="Nvim config switcher" \
+      --border-label-pos=top \
+      --header-first \
+      --header="current: $current_config"
 )
 
 [[ -z "$option" ]] && echo -e "\nNo option selected\nend script" && exit 1
