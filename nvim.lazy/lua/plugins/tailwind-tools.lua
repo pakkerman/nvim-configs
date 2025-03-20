@@ -1,6 +1,12 @@
 return {
   "luckasRanarison/tailwind-tools.nvim",
-  dependencies = { "nvim-treesitter/nvim-treesitter" },
+  name = "tailwind-tools",
+  build = ":UpdateRemotePlugins",
+  dependencies = {
+    "nvim-treesitter/nvim-treesitter",
+    "neovim/nvim-lspconfig",
+    "nvim-telescope/telescope.nvim",
+  },
   enabled = true,
   opts = {
     document_color = {
