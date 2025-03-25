@@ -1,11 +1,12 @@
 return {
+  -- bug: LSP timeout, doesn't sort the classes, using tailwind-sorter.lua instead
   "luckasRanarison/tailwind-tools.nvim",
   name = "tailwind-tools",
   build = ":UpdateRemotePlugins",
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
-    "neovim/nvim-lspconfig",
-    "nvim-telescope/telescope.nvim",
+    "nvim-telescope/telescope.nvim", -- optional
+    "neovim/nvim-lspconfig", -- optional
   },
   enabled = true,
   opts = {
