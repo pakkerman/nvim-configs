@@ -19,3 +19,5 @@ vim.keymap.set({ "n", "v" }, "<leader>3", "3gt", { desc = "Go to Tab 3" })
 
 vim.keymap.set({ "n" }, "<leader>or", "<cmd>edit README.md<CR>")
 vim.keymap.set({ "n" }, "<leader>ot", "<cmd>edit TODO.md<CR>")
+
+vim.keymap.set("v", "y", '"*y')
